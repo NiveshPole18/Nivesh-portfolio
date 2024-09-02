@@ -15,12 +15,12 @@ const Projects = () => {
         <ProjectCard
           src="/NextWebsite.png"
           title="Threads clone react.js"
-          description="Build a Threads clone using the MERN stack, featuring a sleek user interface, real-time updates, and dynamic content sharing. Implement secure authentication, user profiles, and a responsive design for an engaging social media experience"
+          description="Build a Threads clone using the MERN stack, featuring a sleek user interface, real-time updates, and dynamic content sharing. Implement secure authentication, user profiles"
         />
         <ProjectCard
           src="/CardImage.png"
           title="Laundry app"
-          description="A modern laundry service application built using the MERN stack, offering users seamless online booking, order tracking, and payment options. It incorporates real-time notifications."
+          description="A modern laundry service application built using the MERN stack, offering users seamless online booking, order tracking, and payment options.It incorporates real-time notifications."
         />
         <ProjectCard
           src="/SpaceWebsite.png"
