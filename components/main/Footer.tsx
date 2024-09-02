@@ -10,32 +10,34 @@ import { FaYoutube } from "react-icons/fa";
 
 const Footer: React.FC = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px]">
+    <div className="w-full h-full relative z-30 bg-transparent text-gray-200 shadow-lg p-[15px]">
       <div className="w-full flex flex-col items-center justify-center m-auto">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
+
+          {/* Community Links */}
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Community</div>
-            <a
-              href="https://www.youtube.com/@niveshpole1832"
-              className="flex flex-row items-center my-[15px] cursor-pointer"
+            <a 
+              href="https://www.youtube.com/@niveshpole1832" 
+              className="flex flex-row items-center my-[15px] cursor-pointer hover:text-white"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaYoutube />
               <span className="text-[15px] ml-[6px]">Youtube</span>
             </a>
-            <a
-              href="https://github.com/NiveshPole66"
-              className="flex flex-row items-center my-[15px] cursor-pointer"
+            <a 
+              href="https://github.com/NiveshPole66" 
+              className="flex flex-row items-center my-[15px] cursor-pointer hover:text-white"
               target="_blank"
               rel="noopener noreferrer"
             >
               <RxGithubLogo />
               <span className="text-[15px] ml-[6px]">Github</span>
             </a>
-            <a
-              href="https://discord.gg/your-invite-code"
-              className="flex flex-row items-center my-[15px] cursor-pointer"
+            <a 
+              href="https://discord.com/nivesh/your-invite" 
+              className="flex flex-row items-center my-[15px] cursor-pointer hover:text-white"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -44,29 +46,30 @@ const Footer: React.FC = () => {
             </a>
           </div>
 
+          {/* Social Media Links */}
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Social Media</div>
-            <a
-              href="https://www.instagram.com/_.x.knight.x._/"
-              className="flex flex-row items-center my-[15px] cursor-pointer"
+            <a 
+              href="https://www.instagram.com/_.x.knight.x._" 
+              className="flex flex-row items-center my-[15px] cursor-pointer hover:text-white"
               target="_blank"
               rel="noopener noreferrer"
             >
               <RxInstagramLogo />
               <span className="text-[15px] ml-[6px]">Instagram</span>
             </a>
-            <a
-              href="https://x.com/NiveshPole"
-              className="flex flex-row items-center my-[15px] cursor-pointer"
+            <a 
+              href="https://x.com/NiveshPole" 
+              className="flex flex-row items-center my-[15px] cursor-pointer hover:text-white"
               target="_blank"
               rel="noopener noreferrer"
             >
               <RxTwitterLogo />
               <span className="text-[15px] ml-[6px]">Twitter</span>
             </a>
-            <a
-              href="https://www.linkedin.com/in/nivesh-pole-49b6a4203/"
-              className="flex flex-row items-center my-[15px] cursor-pointer"
+            <a 
+              href="https://www.linkedin.com/in/nivesh-pole-49b6a4203/" 
+              className="flex flex-row items-center my-[15px] cursor-pointer hover:text-white"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -75,15 +78,16 @@ const Footer: React.FC = () => {
             </a>
           </div>
 
+          {/* About Section */}
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">About</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <p className="flex flex-row items-center my-[15px] cursor-pointer hover:text-white">
               <span className="text-[15px] ml-[6px]">Become Sponsor</span>
             </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <p className="flex flex-row items-center my-[15px] cursor-pointer hover:text-white">
               <span className="text-[15px] ml-[6px]">Learning about me</span>
             </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <p className="flex flex-row items-center my-[15px] cursor-pointer hover:text-white">
               <span className="text-[15px] ml-[6px]">niveshpole2@gmail.com</span>
             </p>
           </div>
@@ -95,6 +99,7 @@ const Footer: React.FC = () => {
       </div>
     </div>
   );
-};
+}
+
 
 export default Footer;
