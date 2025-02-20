@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
               <span className="text-[15px] ml-[6px]">Youtube</span>
             </a>
             <a 
-              href="https://github.com/NiveshPole66" 
+              href="https://github.com/NiveshPole18" 
               className="flex flex-row items-center my-[15px] cursor-pointer hover:text-white"
               target="_blank"
               rel="noopener noreferrer"
